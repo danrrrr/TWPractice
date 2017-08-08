@@ -1,6 +1,6 @@
 function getPrime(num){
     let i = 2;
-    let result = '';
+    let result = `${num}=`;
     while(i <= num){
         if(num % i === 0){
             result += i;
