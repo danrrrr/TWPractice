@@ -11,7 +11,7 @@ const fibonacci = require("../lib/fibonacci.js");
 describe("测试描述", () => {
 
     it("斐波拉切数列的第n个数", () =>{
-        let result = fibonaccigit(10);
+        let result = fibonacci(10);
         const expect_result = 34;
         
         expect(expect_result).to.equal(result);
