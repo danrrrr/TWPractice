@@ -8,9 +8,9 @@ chai.use(sinonChai);
 
 var getChain = require("../lib/round4.js");
 
-describe("测试描述", () => {
+describe("给出链表 1->2->3->3->4->5->3, 和 val = 3", () => {
 
-    it("给出链表 1->2->3->3->4->5->3, 和 val = 3,返回删除3之后的链表：1->2->4->5", () =>{
+    it("返回删除3之后的链表：1->2->4->5", () =>{
         const str = '1->2->3->3->4->5->3';
         const val = 3;
         let result = getChain(str, val);

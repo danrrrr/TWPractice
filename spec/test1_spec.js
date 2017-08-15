@@ -8,9 +8,9 @@ chai.use(sinonChai);
 
 var getPrime = require("../lib/test1.js");
 
-describe("测试描述", () => {
+describe("分解质因数", () => {
 
-    it("分解质因数", () =>{
+    it("90=2335", () =>{
         let result = getPrime(90);
         const expect_result = `90=2335`;
         
