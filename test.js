@@ -1,4 +1,3 @@
-
-    let obj = {x:1,y:2,z:3};
-let arr = [4,[3,[2,[1]]]];
-console.log(arr.join(',').split(','))
+let arr = [];
+let str = arr.fill('1', 0, 20);
+console.log('hello'.length);
